@@ -1,0 +1,60 @@
+{
+    "From": {
+        "Kilogram": {
+            "Gram": 1000,
+            "Milligram": 1000000,
+            "Metric Ton": 0.001,
+            "Pound": 2.20462,
+            "Ounce": 35.27396,
+            "Stone": 0.157473
+        },
+        "Gram": {
+            "Kilogram": 0.001,
+            "Milligram": 1000,
+            "Metric Ton": 0.000001,
+            "Pound": 0.00220462,
+            "Ounce": 0.03527396,
+            "Stone": 0.000157473
+        },
+        "Milligram": {
+            "Kilogram": 0.000001,
+            "Gram": 0.001,
+            "Metric Ton": 0.000000001,
+            "Pound": 0.00000220462,
+            "Ounce": 0.00003527396,
+            "Stone": 0.000000157473
+        },
+        "Metric Ton": {
+            "Kilogram": 1000,
+            "Gram": 1000000,
+            "Milligram": 1000000000,
+            "Pound": 2204.62,
+            "Ounce": 35273.96,
+            "Stone": 157.473
+        },
+        "Pound": {
+            "Kilogram": 0.453592,
+            "Gram": 453.592,
+            "Milligram": 453592,
+            "Metric Ton": 0.000453592,
+            "Ounce": 16,
+            "Stone": 0.0714286
+        },
+        "Ounce": {
+            "Kilogram": 0.0283495,
+            "Gram": 28.3495,
+            "Milligram": 28349.5,
+            "Metric Ton": 0.0000283495,
+            "Pound": 0.0625,
+            "Stone": 0.00446429
+        },
+        "Stone": {
+            "Kilogram": 6.35029,
+            "Gram": 6350.29,
+            "Milligram": 6350290,
+            "Metric Ton": 0.00635029,
+            "Pound": 14,
+            "Ounce": 224
+        }
+    }
+}

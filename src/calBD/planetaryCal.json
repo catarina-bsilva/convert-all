@@ -1,0 +1,69 @@
+{
+    "From": {
+        "Earth": {
+            "Mercury": 0.241,
+            "Venus": 0.615,
+            "Mars": 1.88,
+            "Jupiter": 11.86,
+            "Saturn": 29.46,
+            "Uranus": 84.01,
+            "Neptune": 164.79
+        },
+        "Mercury": {
+            "Venus": 0.391,
+            "Mars": 0.128,
+            "Jupiter": 0.020,
+            "Saturn": 0.008,
+            "Uranus": 0.003,
+            "Neptune": 0.001
+        },
+        "Venus": {
+            "Mercury": 2.553,
+            "Mars": 0.327,
+            "Jupiter": 0.052,
+            "Saturn": 0.021,
+            "Uranus": 0.007,
+            "Neptune": 0.004
+        },
+        "Mars": {
+            "Mercury": 7.795,
+            "Venus": 3.057,
+            "Jupiter": 0.159,
+            "Saturn": 0.064,
+            "Uranus": 0.022,
+            "Neptune": 0.011
+        },
+        "Jupiter": {
+            "Mercury": 49.209,
+            "Venus": 19.286,
+            "Mars": 6.308,
+            "Saturn": 2.485,
+            "Uranus": 0.141,
+            "Neptune": 0.072
+        },
+        "Saturn": {
+            "Mercury": 122.266,
+            "Venus": 47.911,
+            "Mars": 15.672,
+            "Jupiter": 2.485,
+            "Uranus": 0.351,
+            "Neptune": 0.179
+        },
+        "Uranus": {
+            "Mercury": 348.17,
+            "Venus": 136.59,
+            "Mars": 44.69,
+            "Jupiter": 7.09,
+            "Saturn": 2.85,
+            "Neptune": 0.51
+        },
+        "Neptune": {
+            "Mercury": 683.82,
+            "Venus": 267.13,
+            "Mars": 87.65,
+            "Jupiter": 13.89,
+            "Saturn": 5.59,
+            "Uranus": 1.96
+        }
+    }
+}

@@ -1,0 +1,1 @@
+const currencyConverterAPIKEY = "https://api.currencylayer.com/live?access_key=52c45fc4d5cadb2a0417ff388baa5b71"

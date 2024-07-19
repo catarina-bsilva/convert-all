@@ -1,0 +1,349 @@
+  {
+    "Categories": [
+      {
+        "id": 1,
+        "Category": "Financial",
+        "Converters": [
+          { 
+            "id": 10,
+            "name": "Currency Converter",
+            "description": "Converts one currency to another.",
+            "modalUrl": "src/components/modals/modal-cards/currency-converter.vue"
+          },
+          { 
+            "id": 11,
+            "name": "Interest Rate Converter",
+            "description": "Calculates different interest rates.",
+            "modalUrl": "src/components/modals/modal-cards/interest-rate-converter.vue"
+          },
+          {
+            "id": 12,
+            "name": "Investment Return Calculator",
+            "description": "Estimates returns on investments.",
+            "modalUrl": "src/components/modals/modal-cards/investment-return-calculator.vue"
+          },
+          {
+            "id": 13,
+            "name": "Present and Future Value Calculator",
+            "description": "Calculates present and future values.",
+            "modalUrl": "src/components/modals/modal-cards/present-and-future-value-calculator.vue"
+          },
+          {
+            "id": 14,
+            "name": "Loan Amortization Schedule",
+            "description": "Generates loan amortization schedules.",
+            "modalUrl": "src/components/modals/modal-cards/loan-amortization-schedule.vue"
+          }
+        ],
+        "image": "https://happay.com/blog/wp-content/uploads/sites/12/2023/07/financial-assets-scaled.webp"
+      },
+      {
+        "id": 2,
+        "Category": "Temporal",
+        "Converters": [
+          {
+            "id": 21,
+            "name": "Time Zone Converter",
+            "description": "Converts times between different zones.",
+            "modalUrl": "src/components/modals/modal-cards/time-zone-converter.vue"
+          },
+          {
+            "id": 22,
+            "name": "Date of Maturity Calculator",
+            "description": "Calculates maturity dates for investments.",
+            "modalUrl": "src/components/modals/modal-cards/date-of-maturity-calculator.vue"
+          },
+          {
+            "id": 23,
+            "name": "Planetary Age Calculator",
+            "description": "Calculates your age on different planets.",
+            "modalUrl": "src/components/modals/modal-cards/planetary-age-calculator.vue"
+          },
+          {
+            "id": 24,
+            "name": "Time Unit Converter",
+            "description": "Convert between different units of time such as days, hours, minutes, and seconds.",
+            "modalUrl": "src/components/modals/modal-cards/time-unit-converter.vue"
+          }
+        ],
+        "image": "https://assets-global.website-files.com/61e661d6b8d0a85df11e1665/657a1c6e1d9b3680e169001a_article042312-02.jpeg"
+      },
+      {
+        "id": 3,
+        "Category": "Measurement",
+        "Converters": [
+          {
+            "id": 31,
+            "name": "Length Converter",
+            "description": "Converts different units of length.",
+            "modalUrl": "src/components/modals/modal-cards/length-converter.vue"
+          },
+          {
+            "id": 32,
+            "name": "Weight Converter",
+            "description": "Converts various units of weight.",
+            "modalUrl": "src/components/modals/modal-cards/weight-converter.vue"
+          },
+          {
+            "id": 33,
+            "name": "Volume Converter",
+            "description": "Converts multiple units of volume.",
+            "modalUrl": "src/components/modals/modal-cards/volume-converter.vue"
+          },
+          {
+            "id": 34,
+            "name": "Speed Converter",
+            "description": "Converts speed units like mph, km/h.",
+            "modalUrl": "src/components/modals/modal-cards/speed-converter.vue"
+          },
+          {
+            "id": 35,
+            "name": "Pressure Converter",
+            "description": "Converts units of pressure.",
+            "modalUrl": "src/components/modals/modal-cards/pressure-converter.vue"
+          },
+          {
+            "id": 36,
+            "name": "Energy Converter",
+            "description": "Converts different energy units.",
+            "modalUrl": "src/components/modals/modal-cards/energy-converter.vue"
+          },
+          {
+            "id": 37,
+            "name": "Angle Converter",
+            "description": "Converts angles from degrees to radians.",
+            "modalUrl": "src/components/modals/modal-cards/angle-converter.vue"
+          },
+          {
+            "id": 38,
+            "name": "Area Converter",
+            "description": "Converts various area measurements.",
+            "modalUrl": "src/components/modals/modal-cards/area-converter.vue"
+          },
+          {
+            "id": 39,
+            "name": "Fuel Efficiency Converter",
+            "description": "Calculates fuel consumption rates.",
+            "modalUrl": "src/components/modals/modal-cards/fuel-efficiency-converter.vue"
+          },
+          {
+            "id": 40,
+            "name": "Cooking Measurements",
+            "description": "Converts cooking measurement units.",
+            "modalUrl": "src/components/modals/modal-cards/cooking-measurements.vue"
+          }
+        ],
+        "image": "/img/measurement.jpg"
+      },
+      {
+        "id": 4,
+        "Category": "Climate",
+        "Converters": [
+          {
+            "id": 41,
+            "name": "Temperature Converter",
+            "description": "Converts Celsius to Fahrenheit, etc.",
+            "modalUrl": "src/components/modals/modal-cards/temperature-converter.vue"
+          },
+          {
+            "id": 42,
+            "name": "Wind Speed Converter",
+            "description": "Converts wind speeds between scales.",
+            "modalUrl": "src/components/modals/modal-cards/wind-speed-converter.vue"
+          },
+          {
+            "id": 43,
+            "name": "Relative Humidity and Dew Point Calculator",
+            "description": "Calculates humidity and dew points.",
+            "modalUrl": "src/components/modals/modal-cards/relative-humidity-and-dew-point-calculator.vue"
+          },
+          {
+            "id": 44,
+            "name": "Heat Index Calculator",
+            "description": "Determines perceived temperature.",
+            "modalUrl": "src/components/modals/modal-cards/heat-index-calculator.vue"
+          },
+          {
+            "id": 45,
+            "name": "UV Index Converter",
+            "description": "Interprets UV index values.",
+            "modalUrl": "src/components/modals/modal-cards/uv-index-converter.vue"
+          }
+        ],
+        "image": "https://www.noaa.gov/sites/default/files/styles/landscape_width_1275/public/2022-03/PHOTO-Climate-Collage-Diagonal-Design-NOAA-Communications-NO-NOAA-Logo.jpg"
+      },
+      {
+        "id": 5,
+        "Category": "Color",
+        "Converters": [
+          {
+            "id": 51,
+            "name": "Name to RGB Converter",
+            "description": "Converts color names to RGB codes.",
+            "modalUrl": "src/components/modals/modal-cards/name-to-rgb-converter.vue"
+          },
+          {
+            "id": 52,
+            "name": "HEX to RGB Converter",
+            "description": "Converts HEX codes to RGB format.",
+            "modalUrl": "src/components/modals/modal-cards/hex-to-rgb-converter.vue"
+          },
+          {
+            "id": 53,
+            "name": "CMYK to RGB Converter",
+            "description": "Converts CMYK values to RGB.",
+            "modalUrl": "src/components/modals/modal-cards/cmyk-to-rgb-converter.vue"
+          },
+          {
+            "id": 54,
+            "name": "HSV to RGB Converter",
+            "description": "Converts HSV values to RGB format.",
+            "modalUrl": "src/components/modals/modal-cards/hsv-to-rgb-converter.vue"
+          }
+        ],
+        "image": "https://www.thulatula.com/cdn/shop/articles/img-1693710738885_800x.jpg?v=1693715952"
+      },
+      {
+        "id": 6,
+        "Category": "Health",
+        "Converters": [
+            {
+              "id": 61,
+                "name": "Medication Dosage Calculator",
+                "description": "Calculates proper medication dosages.",
+                "modalUrl": "src/components/modals/modal-cards/medication-dosage-calculator.vue"
+            },
+            {
+              "id": 62,
+                "name": "BMI Calculator",
+                "description": "Determines BMI from height and weight.",
+                "modalUrl": "src/components/modals/modal-cards/bmi-calculator.vue"
+            },
+            {
+              "id": 63,
+                "name": "Calories Burned Calculator",
+                "description": "Estimates calories burned during activities.",
+                "modalUrl": "src/components/modals/modal-cards/calories-burned-calculator.vue"
+            },
+            {
+              "id": 64,
+                "name": "Calories Ingested Calculator",
+                "description": "Tracks caloric intake from foods.",
+                "modalUrl": "src/components/modals/modal-cards/calories-ingested-calculator.vue"
+            },
+            {
+              "id": 65,
+                "name": "Biomedical Units Converter",
+                "description": "Converts various biomedical units.",
+                "modalUrl": "src/components/modals/modal-cards/biomedical-units-converter.vue"
+            }
+        ],
+        "image": "https://cloudinary.hbs.edu/hbsit/image/upload/s--sFv3MZbN--/f_auto,c_fill,h_375,w_750,/v20200101/D730ED9CC0AF1A0C18B3499EF75E86D7.jpg"
+    },
+    {
+        "id": 7,
+        "Category": "Technology",
+        "Converters": [
+            {
+              "id": 71,
+                "name": "Numeric Base Converter",
+                "description": "Converts numbers between different bases.",
+                "modalUrl": "src/components/modals/modal-cards/numeric-base-converter.vue"
+            },
+            {
+              "id": 72,
+                "name": "Text Encoding Converter",
+                "description": "Changes text between various encodings.",
+                "modalUrl": "src/components/modals/modal-cards/text-encoding-converter.vue"
+            },
+            {
+              "id": 73,
+                "name": "Data Converter",
+                "description": "Converts data formats for analysis.",
+                "modalUrl": "src/components/modals/modal-cards/data-converter.vue"
+            },
+            {
+              "id": 74,
+                "name": "Broadband Speed Calculator",
+                "description": "Estimates internet connection speeds.",
+                "modalUrl": "src/components/modals/modal-cards/broadband-speed-calculator.vue"
+            }
+        ],
+        "image": "https://www.simplilearn.com/ice9/free_resources_article_thumb/Technology_Trends.jpg"
+    },
+    {
+        "id": 8,
+        "Category": "Science",
+        "Converters": [
+            {
+              "id": 81,
+                "name": "Scientific Units Converter",
+                "description": "Converts units used in scientific contexts.",
+                "modalUrl": "src/components/modals/modal-cards/scientific-units-converter.vue"
+            },
+            {
+              "id": 82,
+                "name": "Density Converter",
+                "description": "Calculates material density.",
+                "modalUrl": "src/components/modals/modal-cards/density-converter.vue"
+            },
+            {
+              "id": 83,
+                "name": "Mass Flow Rate Converter",
+                "description": "Measures mass moving per unit time.",
+                "modalUrl": "src/components/modals/modal-cards/mass-flow-rate-converter.vue"
+            }
+        ],
+        "image": "https://www.pewresearch.org/science/wp-content/uploads/sites/16/2019/03/PS_2019.03.28_science-knowledge_featured_image-1.jpg?resize=768,432"
+    },
+    {
+        "id": 9,
+        "Category": "Clothing and Footwear",
+        "Converters": [
+            {
+              "id": 91,
+                "name": "Shoe Size Converter",
+                "description": "Converts shoe sizes internationally.",
+                "modalUrl": "src/components/modals/modal-cards/shoe-size-converter.vue"
+            },
+            {
+              "id": 92,
+                "name": "Clothing Size Converter",
+                "description": "Translates clothing sizes across countries.",
+                "modalUrl": "src/components/modals/modal-cards/clothing-size-converter.vue"
+            },
+            {
+              "id": 93,
+                "name": "Ring Size Converter",
+                "description": "Adjusts ring sizes to different standards.",
+                "modalUrl": "src/components/modals/modal-cards/ring-size-converter.vue"
+            },
+            {
+              "id": 94,
+                "name": "Hat Size Converter",
+                "description": "Converts hat sizes globally.",
+                "modalUrl": "src/components/modals/modal-cards/hat-size-converter.vue"
+            },
+            {
+              "id": 95,
+                "name": "Glove Size Converter",
+                "description": "Finds equivalent glove sizes.",
+                "modalUrl": "src/components/modals/modal-cards/glove-size-converter.vue"
+            },
+            {
+              "id": 96,
+                "name": "Bra Size Converter",
+                "description": "Calculates correct bra size.",
+                "modalUrl": "src/components/modals/modal-cards/bra-size-converter.vue"
+            },
+            {
+              "id": 97,
+                "name": "Sewing Measurements Converter",
+                "description": "Converts sewing units like inches to centimeters.",
+                "modalUrl": "src/components/modals/modal-cards/sewing-measurements-converter.vue"
+            }
+        ],
+        "image": "https://img.freepik.com/premium-photo/clothing-accessories-men-women-ready-travel-life-style_11304-1345.jpg?w=1060"
+    }
+    ]
+  }

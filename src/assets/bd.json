@@ -1,0 +1,155 @@
+  {
+    "Categories": [
+      {
+        "id": 1,
+        "Category": "Financial",
+        "Converters": [
+          { 
+            "id": 10,
+            "name": "Currency Converter",
+            "description": "Converts one currency to another.",
+            "modalUrl": "src/components/modals/modal-cards/currency-converter.vue"
+          },
+          { 
+            "id": 11,
+            "name": "Interest Rate Calculator",
+            "description": "Calculates a simple interest rate.",
+            "modalUrl": "src/components/modals/modal-cards/interest-rate-calculator.vue"
+          }          
+        ],
+        "image": "https://happay.com/blog/wp-content/uploads/sites/12/2023/07/financial-assets-scaled.webp"
+      },
+      {
+        "id": 2,
+        "Category": "Temporal",
+        "Converters": [
+          {
+            "id": 21,
+            "name": "Time Zone Converter",
+            "description": "Converts times between different zones.",
+            "modalUrl": "src/components/modals/modal-cards/time-zone-converter.vue"
+          },
+          {
+            "id": 23,
+            "name": "Planetary Age Calculator",
+            "description": "Calculates your age on different planets.",
+            "modalUrl": "src/components/modals/modal-cards/planetary-age-calculator.vue"
+          },
+          {
+            "id": 24,
+            "name": "Time Unit Converter",
+            "description": "Convert between different units of time such as days, hours, minutes, and seconds.",
+            "modalUrl": "src/components/modals/modal-cards/time-unit-converter.vue"
+          }
+        ],
+        "image": "https://assets-global.website-files.com/61e661d6b8d0a85df11e1665/657a1c6e1d9b3680e169001a_article042312-02.jpeg"
+      },
+      {
+        "id": 3,
+        "Category": "Measurement",
+        "Converters": [
+          {
+            "id": 31,
+            "name": "Length Converter",
+            "description": "Converts different units of length.",
+            "modalUrl": "src/components/modals/modal-cards/length-converter.vue"
+          },
+          {
+            "id": 32,
+            "name": "Weight Converter",
+            "description": "Converts various units of weight.",
+            "modalUrl": "src/components/modals/modal-cards/weight-converter.vue"
+          },
+          {
+            "id": 33,
+            "name": "Volume Converter",
+            "description": "Converts multiple units of volume.",
+            "modalUrl": "src/components/modals/modal-cards/volume-converter.vue"
+          },
+          {
+            "id": 34,
+            "name": "Speed Converter",
+            "description": "Converts speed units like mph, km/h.",
+            "modalUrl": "src/components/modals/modal-cards/speed-converter.vue"
+          },
+          {
+            "id": 35,
+            "name": "Pressure Converter",
+            "description": "Converts units of pressure.",
+            "modalUrl": "src/components/modals/modal-cards/pressure-converter.vue"
+          },
+          {
+            "id": 36,
+            "name": "Energy Converter",
+            "description": "Converts different energy units.",
+            "modalUrl": "src/components/modals/modal-cards/energy-converter.vue"
+          }
+        ],
+        "image": "/img/measurement.jpg"
+      },
+      {
+        "id": 4,
+        "Category": "Climate",
+        "Converters": [
+          {
+            "id": 41,
+            "name": "Temperature Converter",
+            "description": "Converts Celsius to Fahrenheit, etc.",
+            "modalUrl": "src/components/modals/modal-cards/temperature-converter.vue"
+          },
+          {
+            "id": 42,
+            "name": "Wind Speed Converter",
+            "description": "Converts wind speeds between scales.",
+            "modalUrl": "src/components/modals/modal-cards/wind-speed-converter.vue"
+          },
+          {
+            "id": 43,
+            "name": "Relative Humidity and Dew Point Calculator",
+            "description": "Calculates humidity and dew points.",
+            "modalUrl": "src/components/modals/modal-cards/relative-humidity-and-dew-point-calculator.vue"
+          }
+        ],
+        "image": "https://www.noaa.gov/sites/default/files/styles/landscape_width_1275/public/2022-03/PHOTO-Climate-Collage-Diagonal-Design-NOAA-Communications-NO-NOAA-Logo.jpg"
+      },
+      {
+        "id": 6,
+        "Category": "Health",
+        "Converters": [
+
+            {
+              "id": 62,
+                "name": "BMI Calculator",
+                "description": "Determines BMI from height and weight.",
+                "modalUrl": "src/components/modals/modal-cards/bmi-calculator.vue"
+            },
+            {
+              "id": 63,
+                "name": "Calories Burned Calculator",
+                "description": "Estimates calories burned during activities.",
+                "modalUrl": "src/components/modals/modal-cards/calories-burned-calculator.vue"
+            }
+        ],
+        "image": "https://cloudinary.hbs.edu/hbsit/image/upload/s--sFv3MZbN--/f_auto,c_fill,h_375,w_750,/v20200101/D730ED9CC0AF1A0C18B3499EF75E86D7.jpg"
+    },
+    {
+        "id": 7,
+        "Category": "Technology",
+        "Converters": [
+            {
+              "id": 71,
+                "name": "Numeric Base Converter",
+                "description": "Converts numbers between different bases.",
+                "modalUrl": "src/components/modals/modal-cards/numeric-base-converter.vue"
+            },
+            {
+              "id": 73,
+                "name": "Data Converter",
+                "description": "Converts data formats for analysis.",
+                "modalUrl": "src/components/modals/modal-cards/data-converter.vue"
+            }
+        ],
+        "image": "https://www.simplilearn.com/ice9/free_resources_article_thumb/Technology_Trends.jpg"
+    }
+    ]
+  }
