@@ -1,9 +1,9 @@
 <template>
-<div class="modal  bg-dark bg-opacity-75" tabindex="-1">
+<div class="modal  bg-dark bg-opacity-75" tabindex="-1" @click.self="$emit('close-modal')">
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content bg-info bg-opacity-75">
             <div class="modal-header border-bottom-0">
-                <button type="button" class="btn-close " data-bs-dismiss="modal" aria-label="Close"></button>
+                <button type="button" class="btn-close " @click="$emit('close-modal')" aria-label="Close"></button>
             </div>
             <div class="container mb-4 ">
                 <form class="d-flex flex-column justify-items-center align-items-center w-100">

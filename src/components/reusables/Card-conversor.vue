@@ -8,7 +8,7 @@
                     <div class="card-body d-flex flex-column justify-content-between">
                             <p class="text-center ">{{ converter.description }}</p>
                             <button class="btn btn-outline-info mt-auto " @click="openModal(index)">Try converter</button>
-                            <component :is="converter.name.toLowerCase().replace(/\s+/g, '-')" :id="'modal' + index" />
+                            <component :is="converter.name.toLowerCase().replace(/\s+/g, '-')" :id="'modal' + index" :ref="'modal' + index" @close-modal="closeModal(index)"/>
                     </div>
                 </div>
           </div>
@@ -65,6 +65,7 @@ import UvIndexConverter from "../modals/modal-cards/uv-index-converter.vue";
 import VolumeConverter from "../modals/modal-cards/volume-converter.vue";
 import WeightConverter from "../modals/modal-cards/weight-converter.vue";
 import WindSpeedConverter from "../modals/modal-cards/wind-speed-converter.vue";
+
 export default {
     data (){
       return {
@@ -124,7 +125,7 @@ export default {
     created() {
       const categoryId = this.$route.params.id;
       this.category = Bd.Categories.find(c => c.id.toString() === categoryId);
-      console.log("Componente Category carregado");
+      console.log("Componente Category carregado", this.category);
       window.addEventListener('popstate', this.handlePopState);
     },
     beforeDestroy() {
@@ -133,22 +134,41 @@ export default {
     methods: {
     openModal(index) {
         const modalId = 'modal' + index;
-        const modalElement = this.$refs.modals.find(modal => modal.$el.id === modalId);
-        if (modalElement) {
-            const bootstrapModal = new bootstrap.Modal(modalElement.$el);
-            bootstrapModal.show();
+        console.log("Abrindo modal:", modalId)
+        console.log("Referências disponíveis:", this.$refs)
+        const modalElement = this.$refs[modalId][0];
+        if ((modalElement && modalElement.$el)) {
+            console.log("Modal encontrado:", modalElement);
+            modalElement.$el.style.display = 'block'; // Mostrar o modal
+            modalElement.$el.classList.add('show'); // Adicionar a classe 'show'
+            modalElement.$el.setAttribute('aria-modal', 'true');
+            modalElement.$el.setAttribute('role', 'dialog');
             history.pushState({ modal: modalId }, null, null);
+        } else {
+            console.error("Modal não encontrado:", modalId); // Log de erro
+        }
+    },
+    closeModal(index) {
+        const modalId = 'modal' + index;
+        console.log("Fechando modal:", modalId);
+        const modalElement = this.$refs[modalId][0];
+        if (modalElement && modalElement.$el) {
+            modalElement.$el.style.display = 'none'; // Esconder o modal
+            modalElement.$el.classList.remove('show'); // Remover a classe 'show'
+            modalElement.$el.removeAttribute('aria-modal');
+            modalElement.$el.removeAttribute('role');
         }
     },
     handlePopState(event) {
         const modalId = event.state && event.state.modal;
         if (modalId) {
-            const modalElement = this.$refs.modals.find(modal => modal.$el.id === modalId);
-            if (modalElement) {
-                const bootstrapModal = bootstrap.Modal.getInstance(modalElement.$el);
-                if (bootstrapModal) {
-                    bootstrapModal.hide();
-                }
+            console.log("Fechando modal:", modalId); 
+            const modalElement = this.$refs[modalId][0];
+            if ((modalElement && modalElement.$el)) {
+                modalElement.$el.style.display = 'none'; // Esconder o modal
+                modalElement.$el.classList.remove('show'); // Remover a classe 'show'
+                modalElement.$el.removeAttribute('aria-modal');
+                modalElement.$el.removeAttribute('role');
             }
         }
     }
